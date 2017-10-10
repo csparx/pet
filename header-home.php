@@ -14,25 +14,27 @@
     <!-- Include Font Awesome CDN -->
     <script src="https://use.fontawesome.com/ad8a1ca9e0.js"></script>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+
   </head>
   <body>
     <header>
 
   		<div class="container">
-        <div id="head">
 
-          <div class="social-links">
-            <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
-            <i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
-            <i class="fa fa-youtube-square fa-lg" aria-hidden="true"></i>
-            <i class="fa fa-rss-square fa-lg" aria-hidden="true"></i>
-          </div> 
-          <div class="pet-logo"></div>
-          <div class="subscribe">
-            <a href="#">Subscribe For Free</a>
-          </div>
-
+        <div class="social-links">
+          <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+          <i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>
+          <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+          <i class="fa fa-youtube-square fa-lg" aria-hidden="true"></i>
+          <i class="fa fa-rss-square fa-lg" aria-hidden="true"></i>
+        </div> 
+        <div class="pet-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pet-logo.png" alt=""></div>
+        <div class="subscribe">
+          <a href="#">Subscribe For Free</a>
         </div>
+
       </div>
     </header>
