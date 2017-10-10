@@ -19,11 +19,20 @@
     <header>
 
   		<div class="container">
-        <div class="social-links">
-          <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        </div> 
-        <div class="pet-logo"></div>
-        <div class="subscribe"></div>
-      </div>
+        <div id="head">
 
+          <div class="social-links">
+            <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-youtube-square fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-rss-square fa-lg" aria-hidden="true"></i>
+          </div> 
+          <div class="pet-logo"></div>
+          <div class="subscribe">
+            <a href="#">Subscribe For Free</a>
+          </div>
+
+        </div>
+      </div>
     </header>
