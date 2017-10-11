@@ -27,8 +27,8 @@ Source Sans Pro
 */
 
 .container{
-	width: 100%;
 	display: flex;
+	padding: 0px 50px;
 }
 
 
@@ -70,3 +70,40 @@ Source Sans Pro
     padding: 10px 15px;
     width: 200px;
 }
+
+.nav-container{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+	list-style: none;
+	flex: 1;
+}
+
+.menu li a{
+	color: #2d2d2d;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.thick-line{
+	height: 5px;
+	background: black;
+}
+
+.thin-line{
+    height: 1px;
+    background: black;
+}
+
+
+
+
+

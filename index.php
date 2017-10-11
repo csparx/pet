@@ -1,10 +1,15 @@
-<?php
-get_header( 'home' );
+<?php get_header( 'home' ); ?>
 
-// get_template_part( 'template-parts/slider', 'none' );
+<div class="container">
+	<?php get_template_part( 'template-parts/leftcol', 'none' ); ?>
+	<?php get_template_part( 'template-parts/primarycol', 'none' ); ?>
+	<?php get_template_part( 'template-parts/rightcol', 'none' ); ?>
+</div>
 
-// get_footer();
- ?>
+
+
+
+
 
   </body>
 </html>

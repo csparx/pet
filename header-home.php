@@ -37,4 +37,18 @@
         </div>
 
       </div>
+      <div class="container">
+        <div class="nav-container">
+          <a id="resp-menu" class="responsive-menu" href="#"> Menu ☰</a>
+          <?php
+          $args = array(
+            'menu' => 'Main Menu',
+          );
+          wp_nav_menu( $args );
+          ?>
+        </div>
+      </div>
+
+      <hr class="thick-line">
+      <hr class="thin-line">
     </header>

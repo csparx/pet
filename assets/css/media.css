@@ -1,0 +1,17 @@
+/*
+*
+* Mobile Styles
+*
+*/
+
+/* Mobile Menu */
+.responsive-menu {
+    display: none;
+    width: auto;
+    padding: 20px 15px;
+    background: #007336;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
