@@ -16,7 +16,7 @@
 
 	<div class="category-name">News</div>
 
-	<a class="post-title" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
+	<a class="main-post-title" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
 
 	<?php echo the_excerpt(); ?>
 

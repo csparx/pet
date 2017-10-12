@@ -247,6 +247,7 @@ Source Sans Pro
 
 .main-col-post{
 	width: 600px;
+	text-align: center;
 }
 
 .main-image-col img{
@@ -255,5 +256,10 @@ Source Sans Pro
 	margin-top: 40px;
 }
 
-
-
+.main-post-title{
+	font-family: 'Ubuntu';
+	font-weight: 700;
+	color: #2d2d2d;
+	text-decoration: none;
+	font-size: 22px;
+}
