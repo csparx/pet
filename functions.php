@@ -21,3 +21,6 @@ function register_main_menu() {
   register_nav_menu('primary-menu',__( 'Primary Menu' ));
 }
 add_action( 'init', 'register_main_menu' );
+
+// Adds Featured Image to posts
+add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
