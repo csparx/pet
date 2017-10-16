@@ -14,8 +14,8 @@
 	<div class="post-image-col">
 		<?php echo get_the_post_thumbnail( $post_id, 'medium' ); ?>
 	</div>
-
-	<div class="category-name">News</div>
+	<?php $categories = get_the_category(); ?>
+	<div class="category-name"><?php echo $categories[0]->cat_name; ?></div>
 
 	<a class="post-title" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
 
@@ -31,7 +31,7 @@
 
 <div class="left-col-post">
 
-	<?php $catquery = new WP_Query( 'cat=1&posts_per_page=1' ); ?>
+	<?php $catquery = new WP_Query( 'cat=643&posts_per_page=1' ); ?>
 	 
 	<?php while($catquery->have_posts()) : $catquery->the_post(); ?>
 
@@ -39,7 +39,8 @@
 		<?php echo get_the_post_thumbnail( $post_id, 'medium' ); ?>
 	</div>
 
-	<div class="category-name">News</div>
+	<?php $categories = get_the_category(); ?>
+	<div class="category-name"><?php echo $categories[0]->cat_name; ?></div>
 
 	<a class="post-title" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
 

@@ -13,6 +13,7 @@ Text Domain: powerequipmenttrade
 Colors:
 DarkGrey: #2d2d2d
 Orange: #f3731d
+LightGrey: #cccccc
 */
 
 /*
@@ -52,6 +53,56 @@ Source Sans Pro
 	font-family: 'Source Sans Pro';
 	font-weight: 400;
 	font-style: oblique;
+}
+
+.orange-line{
+    height: 1px;
+    background: #f3731d;
+    width: 50%;
+}
+
+.white-line{
+    height: 1px;
+    background: white;
+    width: 80%;
+}
+
+/*
+* Base Fonts
+*/
+
+.header-bold{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+.header-medium{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.header-regular{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+.body-light{
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+}
+
+.body-regular{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+.body-bold{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+.orange-text{
+    color: #f3731d;
 }
 
 
@@ -239,6 +290,10 @@ Source Sans Pro
 	width: 250px;
 }
 
+.right-col-post{
+    width: 250px;
+}
+
 .post-image-col img{
 	width: 250px;
 	height: auto;
@@ -257,9 +312,78 @@ Source Sans Pro
 }
 
 .main-post-title{
-	font-family: 'Ubuntu';
-	font-weight: 700;
 	color: #2d2d2d;
 	text-decoration: none;
 	font-size: 22px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+/*
+* Digimag Homepage
+*/
+
+.digimag{
+    background: url('assets/img/greytexture-bg.png');
+    color: white;
+    justify-content: space-around;
+}
+
+.digimag-img{
+    width: 463px;
+    height: 342px;
+    margin: 3% 2%;
+}
+
+.digimag-btn{
+    color: white;
+    text-decoration: none;
+    background: #f3731d;
+    padding: 9px 35px;
+}
+
+.digimag-about{
+    margin: 3% 2%;
+}
+
+.digimag-about p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.petnet-wrapper {
+    background: #f3731d;
+    padding: 10px;
+    color: white;
+    height: 350px;
+    margin: 3% 2%;
+    min-width: 250px;
+}
+
+.petnet-wrapper i, h4{
+    margin: 6px;
+}
+
+#mc_embed_signup{
+    background: none!important;
+}
+
+#mc_embed_signup .button{
+    background-color: #2d2d2d!important;
+}
+
+/*
+* Bottom Homepage
+*/
+.view-more{
+    color: #f3731d;
+}
+
+
+/*
+* Footer
+*/
+.footer-wrapper{
+    background-color: #cccccc;
 }
