@@ -8,6 +8,30 @@
 	<h4 class="view-more">VIEW MORE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></h4>
 	<!-- LOAD CURRENT ISSUE COVERS -->
 
+
+	<?php
+
+	$args = array(
+		'cat' 				=> 4,
+		'posts_per_page'	=> 1,
+	);
+
+	$catquery = new WP_Query( $args );
+
+	?>
+	 
+
+	<?php while($catquery->have_posts()) : $catquery->the_post(); ?>
+
+	<div class="post-image-col">
+		<?php echo get_the_post_thumbnail( $post_id, 'medium' ); ?>
+		<?php echo get_post_meta($post_id, 'CoverPhoto') ?>
+	</div>
+
+	<?php endwhile; ?>
+
+	<?php wp_reset_postdata(); ?>
+
 </div>
 <div class="right-bottom-home">
 	<!-- 300x250 AD -->
