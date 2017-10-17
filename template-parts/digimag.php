@@ -10,12 +10,18 @@
 <!-- </div> -->
 
 <div class="petnet-wrapper">
-	<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-	<h4>PETnetOnline Newsletter</h4>
-	<p>
-		Monthly e-newsletter of Power Equipment Trade magazine
-	</p>
+	<div class="petnet-header">
+		<i class="petnet-icon fa fa-envelope fa-3x" aria-hidden="true"></i>
+		<h3 class="header-regular">PETnet Online Newsletter</h3>
+		
+	</div>
+
+	<div style="clear: both;"></div>
+
 	<hr class="white-line">
+
+	<p>Monthly e-newsletter of Power Equipment Trade magazine</p>
+
 	<!-- Begin MailChimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 	<style type="text/css">

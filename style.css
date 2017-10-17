@@ -32,6 +32,10 @@ Source Sans Pro
 	padding: 0px 50px;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .category-name{
 	font-family: 'Ubuntu';
 	font-weight: 400;
@@ -58,18 +62,34 @@ Source Sans Pro
 .orange-line{
     height: 1px;
     background: #f3731d;
-    width: 50%;
+    width: 30%;
+    border: none;
+    margin: 24px auto;
 }
 
 .white-line{
     height: 1px;
     background: white;
     width: 80%;
+    border: none;
 }
+
+.dark-bg{
+    background-color: #2d2d2d;
+}
+
 
 /*
 * Base Fonts
 */
+
+p{
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+}
+h1,h2,h3,h4{
+    font-family: 'Ubuntu';
+}
 
 .header-bold{
     font-family: 'Ubuntu';
@@ -110,6 +130,10 @@ Source Sans Pro
 * Header
 */
 
+.header-wrapper{
+    justify-content: space-between;
+}
+
 .social-links{
 	color: #2d2d2d;
 	flex-grow: 1;
@@ -128,7 +152,6 @@ Source Sans Pro
 }
 
 .subscribe{
-	flex-grow: 1;
 	align-self: flex-end;
 }
 
@@ -201,7 +224,7 @@ Source Sans Pro
 }
 
 .menu ul li a:hover,.menu ul li:hover>a {
-    background: #029446;
+    background: #2d2d2d;
     color: #fff;
 }
 
@@ -270,8 +293,44 @@ Source Sans Pro
 
 
 /*
+* Single Post
+*/
+
+.page-content{
+    flex: 3;
+}
+.page-sidebar{
+    flex: 1;
+}
+
+.page-title{
+    width: 100%;
+}
+
+#breadcrumbs{
+    width: 100%;
+    padding-left: 0px;
+}
+
+#breadcrumbs a{
+    color: #f3731d;
+    text-decoration: none;
+}
+
+#breadcrumbs li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+
+/*
 * Main Homepage
 */
+
+.home-modules{
+    margin-bottom: 25px;
+}
 
 .left-col{
 	width: 20%;
@@ -290,8 +349,17 @@ Source Sans Pro
 	width: 250px;
 }
 
+.left-image-col img{
+    max-width: 250px;
+}
+
 .right-col-post{
     width: 250px;
+    text-align: center;
+}
+
+.right-col-post hr:nth-of-type(3){
+    display: none;
 }
 
 .post-image-col img{
@@ -303,6 +371,11 @@ Source Sans Pro
 .main-col-post{
 	width: 600px;
 	text-align: center;
+    margin: 0 auto;
+}
+
+.main-col-post img{
+    width: 100%;
 }
 
 .main-image-col img{
@@ -361,8 +434,31 @@ Source Sans Pro
     min-width: 250px;
 }
 
-.petnet-wrapper i, h4{
+.petnet-header{
+    width: 100%;
+    margin: 5px 20px;
+}
+
+.petnet-icon{
+    float: left;
+}
+
+.petnet-header h3{
+    float: left;
+}
+
+.petnet-header h3{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.petnet-wrapper i, h3{
     margin: 6px;
+}
+
+.petnet-wrapper p{
+    text-align: center;
+    margin: 0px 0px 4px 0px;
 }
 
 #mc_embed_signup{
@@ -380,10 +476,80 @@ Source Sans Pro
     color: #f3731d;
 }
 
+.cover-row{
+    float: left;
+}
+
+.home-cov{
+    height: 200px;
+    margin: 10px 15px 0px 0px;
+}
+
+.left-bottom-home{
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+.right-bottom-home{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.title-wrapper{
+    width: 100%;
+}
+
+.view-more{
+    font-size: 18px;
+}
+
 
 /*
 * Footer
 */
+
+.footer-logo{
+    height: 50px;
+    margin: 20px;
+}
+
+.logo-social-wrapper{
+    
+}
+
+.footer-social-links{
+    color: #2d2d2d;
+    flex-grow: 1;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.footer-wrapper ul:nth-of-type(1){
+    max-width: 400px;
+}
+
 .footer-wrapper{
     background-color: #cccccc;
+    color: #2d2d2d;
+}
+.footer-text{
+    line-height: 6px;
+}
+
+.footer-wrapper a{
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+.copyright{
+    color: #cccccc;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+}
+
+.copyright a{
+    color: #cccccc;
+    text-decoration: none;
 }

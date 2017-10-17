@@ -6,7 +6,7 @@
 ?>
 
 <div class="right-col-post">
-	<h1 class="header-medium">Latest Posts</h1>
+	<h2 class="header-regular">Latest Posts</h2>
 
 	<?php $catquery = new WP_Query( 'cat=1&posts_per_page=3' ); ?>
 	 
@@ -17,9 +17,10 @@
 
 	<a class="post-title" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
 
-	<?php echo the_excerpt(); ?>
+	<p><?php echo excerpt(12); ?></p>
 
-	<p class="post-author"><?php echo 'By ' . get_the_author(); ?></p>
+	<!-- Need to reorganize users and authors -->
+	<?php/* <p class="post-author"><?php echo 'By ' . get_the_author(); ?></p> */ ?>
 
 	<hr class="orange-line">
 
