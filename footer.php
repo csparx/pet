@@ -5,11 +5,11 @@
     <div style="clear: both;"></div>
 
     <div class="footer-social-links">
-      <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-youtube-square fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-rss-square fa-lg" aria-hidden="true"></i>
+      <a href="http://www.facebook.com/powerequipmenttrade"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+      <a href="https://plus.google.com/u/0/b/106524655197810978772/106524655197810978772/about"><i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i></a>
+      <a href="http://twitter.com/powerequiptrade"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/channel/UCDrr1UeE3-quy-Qi56muTzg"><i class="fa fa-youtube-square fa-lg" aria-hidden="true"></i></a>
+      <!-- <i class="fa fa-rss-square fa-lg" aria-hidden="true"></i> -->
     </div> 
   </div>
 

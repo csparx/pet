@@ -12,6 +12,8 @@
 	 
 	<?php while($catquery->have_posts()) : $catquery->the_post(); ?>
 
+	<div class="latest-post">
+
 	<?php $categories = get_the_category(); ?>
 	<div class="category-name"><?php echo $categories[0]->cat_name; ?></div>
 
@@ -23,6 +25,8 @@
 	<?php/* <p class="post-author"><?php echo 'By ' . get_the_author(); ?></p> */ ?>
 
 	<hr class="orange-line">
+
+	</div>
 
 	<?php endwhile; ?>
 

@@ -1,13 +1,14 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- */
+/*
+* Single Page Template
+*
+*/
+?>
 
-get_header(); ?>
+<?php get_header(); ?>
 
 <div class="container wrap">
-		
+	
 	<?php
 	while ( have_posts() ) : the_post();
 	?>
@@ -15,7 +16,6 @@ get_header(); ?>
 		<h1 class="page-title">
 			<?php the_title(); ?>
 		</h1>
-		<?php cns_share_buttons(); ?>
 
 		<div class="page-content">
 			<?php the_content(); ?>

@@ -6,8 +6,8 @@
 
 	<div style="clear: both;"></div>
 	
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed mollis sapien.</p>
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/media-center.png" alt="">
+	<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed mollis sapien.</p> -->
+	<img class="media-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/media-center.png" alt="">
 	
 	<div class="title-wrapper">
 		<h1>Past Issues <span class="view-more">VIEW MORE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>
@@ -45,7 +45,27 @@
 	<?php wp_reset_postdata(); ?>
 
 </div>
+
+
+
+
 <div class="right-bottom-home">
+
+	<div class="pet-fb">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div class="fb-page" data-href="http://www.facebook.com/powerequipmenttrade" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+			<blockquote cite="http://www.facebook.com/powerequipmenttrade" class="fb-xfbml-parse-ignore"><a href="http://www.facebook.com/powerequipmenttrade">Power Equipment Trade</a></blockquote>
+		</div>
+	</div>
+
 	<!-- 300x250 AD -->
 	<div id='div-gpt-ad-1508263002416-0' style='height:250px; width:300px;'>
 	<script>

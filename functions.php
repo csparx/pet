@@ -335,3 +335,42 @@ function custom_breadcrumbs() {
     }
 
 }
+
+/*
+** Add social media share icons
+*/
+function cns_share_buttons() { ?>
+
+<div id="share-buttons">
+    <!-- Email -->
+    <a href="mailto:?Power Equipment Trade Magazine&amp;Body=<?php echo the_permalink(); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/email.png" alt="Email" />
+    </a>
+ 
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=<?php echo the_permalink(); ?>" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png" alt="Facebook" />
+    </a>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url=<?php echo the_permalink(); ?>&amp;hashtags=powerequiptrade" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.png" alt="Twitter" />
+    </a>
+    
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url=<?php echo the_permalink(); ?>" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/google.png" alt="Google" />
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php echo the_permalink(); ?>" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/linkedin.png" alt="LinkedIn" />
+    </a>
+    
+    <!-- Print -->
+    <a href="javascript:;" onclick="window.print()">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/print.png" alt="Print" />
+    </a>
+</div>
+
+<?php } ?>

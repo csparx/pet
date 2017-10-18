@@ -13,6 +13,19 @@
 	$custom = get_post_custom();
 	$featured_image = $custom['Thumbnail'][0];
 	?>
+
+	<div class="main-image-col">
+		<iframe src="https://www.ustream.tv/embed/23430239?html5ui&autoplay=true" style="border: 0 none transparent;"  webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="300px"></iframe>
+	</div>
+
+	<div class="category-name">Live</div>
+
+	<a class="main-post-title" href="<?php the_permalink() ?>" rel="bookmark">Live From Louisville: Dealer Workshops</a>
+
+	<p>Can’t make it to GIE+EXPO in Louisville this week? Power Equipment Trade will be streaming all three days worth of Dealer Workshop sessions right here! Presented by experts from Bob Clements International, the Equipment Dealers Assn. and the United Equipment Dealers Assn., topics will range from tax planning to digital marketing; managing a family business and how to set an effective labor rate. <a href="http://www.gie-expo.com/education/dealer-education/dealerworkshops">Click here</a> for the full Dealer Workshop schedule, including the list of presenters and topics.</p>
+
+
+	<?php /*
 	<?php if($featured_image){ ?>
 	<div class="main-image-col">
 		<img src="<?php echo $featured_image; ?>" alt="">

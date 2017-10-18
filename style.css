@@ -46,7 +46,6 @@ Source Sans Pro
 	font-family: 'Ubuntu';
 	font-weight: 700;
 	color: #2d2d2d;
-	text-decoration: none;
 }
 .post-excerpt{
 	font-family: 'Source Sans Pro';
@@ -78,10 +77,25 @@ Source Sans Pro
     background-color: #2d2d2d;
 }
 
+#share-buttons img {
+    width: 30px;
+    padding: 4px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+
+#share-buttons{
+    width: 100%;
+}
 
 /*
 * Base Fonts
 */
+
+a{
+    text-decoration: none;
+}
 
 p{
     font-family: 'Source Sans Pro';
@@ -139,6 +153,13 @@ h1,h2,h3,h4{
 	flex-grow: 1;
 	align-self: flex-end;
 }
+.social-links a{
+    color: #2d2d2d;
+}
+
+.social-links a:hover{
+    color: #f3731d;
+}
 
 .pet-logo{
 	flex-grow: 2;
@@ -157,7 +178,6 @@ h1,h2,h3,h4{
 
 .subscribe a{
 	color: white;
-	text-decoration: none;
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
@@ -166,6 +186,10 @@ h1,h2,h3,h4{
 	background: #2d2d2d;
     padding: 10px 15px;
     width: 200px;
+}
+
+.subscribe a:hover{
+    background: #f3731d;
 }
 
 .nav-container{
@@ -218,14 +242,21 @@ h1,h2,h3,h4{
 
 .menu li a{
 	color: #2d2d2d;
-    text-decoration: none;
     font-family: 'Ubuntu';
     font-weight: 500;
+    padding: 20px 15px;
+    display: block;
+    transition: all 0.2s ease-in-out 0s;
 }
 
-.menu ul li a:hover,.menu ul li:hover>a {
+.menu ul li a:hover,.menu ul li:hover > a {
     background: #2d2d2d;
     color: #fff;
+}
+
+.menu li a:hover, .menu li:hover>a {
+    color: #fff;
+    background: #2d2d2d;
 }
 
 .menu li:hover>ul {
@@ -278,7 +309,6 @@ h1,h2,h3,h4{
 .responsive-menu:hover {
     background: #007336;
     color: #fff;
-    text-decoration: none;
 }
 
 .thick-line{
@@ -314,13 +344,22 @@ h1,h2,h3,h4{
 
 #breadcrumbs a{
     color: #f3731d;
-    text-decoration: none;
 }
 
 #breadcrumbs li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 15px;
+}
+
+/*
+* Category
+*/
+.cat-post{
+
+}
+.cat-container {
+    width: 70%;
 }
 
 
@@ -334,6 +373,7 @@ h1,h2,h3,h4{
 
 .left-col{
 	width: 20%;
+    order: -1;
 }
 
 .main-col{
@@ -386,7 +426,6 @@ h1,h2,h3,h4{
 
 .main-post-title{
 	color: #2d2d2d;
-	text-decoration: none;
 	font-size: 22px;
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -410,7 +449,6 @@ h1,h2,h3,h4{
 
 .digimag-btn{
     color: white;
-    text-decoration: none;
     background: #f3731d;
     padding: 9px 35px;
 }
@@ -452,7 +490,11 @@ h1,h2,h3,h4{
     margin-left: 10px;
 }
 
-.petnet-wrapper i, h3{
+.petnet-wrapper i{
+    margin: 6px;
+}
+
+.petnet-wrapper h3{
     margin: 6px;
 }
 
@@ -503,6 +545,9 @@ h1,h2,h3,h4{
 .view-more{
     font-size: 18px;
 }
+.pet-fb{
+    margin-bottom: 20px;
+}
 
 
 /*
@@ -515,7 +560,7 @@ h1,h2,h3,h4{
 }
 
 .logo-social-wrapper{
-    
+    align-self: center;
 }
 
 .footer-social-links{
@@ -525,8 +570,17 @@ h1,h2,h3,h4{
     text-align: center;
 }
 
+.footer-social-links a{
+    color: #2d2d2d;
+}
+
+.footer-social-links a:hover{
+    color: #f3731d;
+}
+
 .footer-wrapper ul:nth-of-type(1){
     max-width: 400px;
+    align-self: center;
 }
 
 .footer-wrapper{
@@ -539,7 +593,6 @@ h1,h2,h3,h4{
 
 .footer-wrapper a{
     color: #2d2d2d;
-    text-decoration: none;
 }
 
 .copyright{
@@ -551,5 +604,47 @@ h1,h2,h3,h4{
 
 .copyright a{
     color: #cccccc;
-    text-decoration: none;
+}
+
+/*
+* Magazine Template Page
+*/
+
+.mag-content{
+    flex: 2;
+}
+
+.cover-img{
+    float: left;
+    margin-right: 20px;
+}
+
+.mag-description{
+    width: 70%;
+    float: left;
+}
+
+.editorial-column{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.mag-photo{
+    height: 300px;
+    margin-right: 20px;
+}
+
+/*
+* Ad Index Page
+*/
+
+.adindex-wrapper{
+    width: 21%;
+    margin: 20px;
+}
+
+.adindex-container{
+    width: 100%;
+    display: flex;
 }
