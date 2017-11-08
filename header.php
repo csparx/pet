@@ -71,7 +71,7 @@
           wp_nav_menu( $args );
           ?>
         </div>
-        </nav>
+      </nav>
     <!--   </div> -->
 
       <script type="text/javascript">
@@ -80,7 +80,7 @@
           var menu  = $('.menu');
 
           $(touch).on('click', function(e) {
-            e.preventDefault();
+            a.stopPropagation();
             menu.slideToggle();
           });
 

@@ -29,6 +29,15 @@
 }
 
 @media only screen and (max-width: 1235px){
+
+	.subscribe{
+		margin: 10px auto;
+	}
+
+	.social-links{
+		text-align: center;
+	}
+
 	.main-col-post{
 		width: 100%;
 	}
@@ -51,9 +60,29 @@
 	.left-image-col img {
 		display: none;
 	}
-}
 
-@media only screen and (max-width: 1040px){
+	.pet-fb {
+	    width: 40%;
+	    float: left;
+	}
+
+	.ad125x{
+		float: left;
+		margin-left: 10px;
+	}
+
+	.right-bottom-home{
+		width: 100%;
+	}
+
+	.left-bottom-home{
+		width: 100%;
+	}
+
+	.digimag-about{
+		text-align: center;
+	}
+
 	.container{
 		flex-wrap: wrap;
 	}
@@ -86,6 +115,22 @@
 	 #div-gpt-ad-1508262762239-0{
 	 	display: none;
 	 }
+
+	 .menu li{
+	 	width: 100%;
+	 	text-align: center;
+	 }
 }
 
-@
+@media only screen and (max-width: 650px){
+	.page-content {
+	    flex: none;
+	    width: 100%;
+	}
+
+	.cat-container{
+	    width: 100%;
+	}
+	
+}
+

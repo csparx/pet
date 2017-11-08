@@ -67,7 +67,7 @@
 	</div>
 
 	<!-- 300x250 AD -->
-	<div id='div-gpt-ad-1508263002416-0' style='height:250px; width:300px;'>
+	<div id='div-gpt-ad-1508263002416-0' class="ad300x250" style='height:250px; width:300px;'>
 	<script>
 	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508263002416-0'); });
 	</script>
@@ -75,28 +75,28 @@
 
 	<!-- 4 125x AD -->
 	<!-- 125x 1 -->
-	<div id='div-gpt-ad-1508263076017-0' style='height:125px; width:125px;'>
+	<div id='div-gpt-ad-1508263076017-0' class="ad125x" style='height:125px; width:125px;'>
 	<script>
 	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508263076017-0'); });
 	</script>
 	</div>
 
 	<!-- 125x 2 -->
-	<div id='div-gpt-ad-1508263123532-0' style='height:125px; width:125px;'>
+	<div id='div-gpt-ad-1508263123532-0' class="ad125x" style='height:125px; width:125px;'>
 	<script>
 	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508263123532-0'); });
 	</script>
 	</div>
 
 	<!-- 125x 3 -->
-	<div id='div-gpt-ad-1508263182735-0' style='height:125px; width:125px;'>
+	<div id='div-gpt-ad-1508263182735-0' class="ad125x" style='height:125px; width:125px;'>
 	<script>
 	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508263182735-0'); });
 	</script>
 	</div>
 
 	<!-- 125x 4 -->
-	<div id='div-gpt-ad-1508263219563-0' style='height:125px; width:125px;'>
+	<div id='div-gpt-ad-1508263219563-0' class="ad125x" style='height:125px; width:125px;'>
 	<script>
 	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508263219563-0'); });
 	</script>

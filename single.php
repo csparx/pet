@@ -18,7 +18,7 @@ get_header(); ?>
 		<?php cns_share_buttons(); ?>
 
 		<div class="page-content">
-			<?php the_content(); ?>
+			<?php echo apply_filters( 'the_content', $post->post_content ); ?>
 		</div>
 
 

@@ -1,4 +1,5 @@
 <?php
+
 function cns_enqueue_style() {
   wp_enqueue_script('jquery');
     if ( is_child_theme() ) {
