@@ -6,7 +6,7 @@
 ?>
 <div class="main-col-post">
 
-	<?php $catquery = new WP_Query( 'cat=8473&posts_per_page=1' ); ?>
+	<?php $catquery = new WP_Query( 'cat=8512&posts_per_page=1' ); ?>
 	 
 	<?php
 	while($catquery->have_posts()) : $catquery->the_post();
@@ -17,14 +17,23 @@
 	
 	<?php if($featured_image){ ?>
 	<div class="main-image-col">
-		<img src="<?php echo $featured_image; ?>" alt="">
+		<img class="primary-img" src="<?php echo $featured_image; ?>" alt="">
 	</div>
 	<?php } else { ?>
-		<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/default-primary.png" alt="">
+		<img class="primary-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/default-primary.png" alt="">
 
 	<?php } ?>
 
-	<div class="category-name">News</div>
+	<div class="category-name">
+		<?php 
+
+		$categories = get_the_category(); 
+		if( ! empty($categories) ):
+			echo esc_html( $categories[0]->name );
+		endif;
+
+		?>	
+	</div>
 
 	<a class="main-post-title" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
 

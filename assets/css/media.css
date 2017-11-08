@@ -30,6 +30,11 @@
 
 @media only screen and (max-width: 1235px){
 
+	.nav-container{
+		width: 100%!important;
+		margin-top: 10px!important;
+	}
+
 	.subscribe{
 		margin: 10px auto;
 	}
@@ -46,9 +51,10 @@
 		width: 100%;
 	}
 	.left-col-post{
-		width: 50%;
-    	float: left;
-    	text-align: center;
+	    width: 44%;
+	    float: left;
+	    text-align: center;
+	    margin: 15px;
 	}
 	.right-col{
 		width: 100%;
@@ -58,6 +64,11 @@
 		float: left;
 	}
 	.left-image-col img {
+		max-height: 250px;
+   		max-width: 100%;
+	}
+
+	.right-col-post .latest-post:last-child{
 		display: none;
 	}
 
@@ -122,6 +133,12 @@
 	 }
 }
 
+@media only screen and (max-width: 900px){
+	.main-image-col img{
+		width:100%!important;
+	}
+}
+
 @media only screen and (max-width: 650px){
 	.page-content {
 	    flex: none;
@@ -131,6 +148,50 @@
 	.cat-container{
 	    width: 100%;
 	}
+
+	.container{
+		padding: 0px;
+	}
+
+	.main-col{
+		margin: 0px;
+	}
 	
 }
+
+@media only screen and (max-width: 515px){
+	.left-col-post {
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+	    margin: 10px 0px;
+	}
+
+	.right-col{
+		display: none!important;
+	}
+
+	.view-more-mobile{
+		display: block;
+	    background: #f77300;
+	    color: white;
+	    padding: 10px 20px;
+	    margin: 0px auto;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.pet-logo img{
+		width: 100%!important;
+	}
+
+	.digimag-img{
+	    width: 100%;
+	    height: auto;
+    	align-self: center;
+	}
+    
+}
+
+
 

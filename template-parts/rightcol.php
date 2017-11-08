@@ -8,7 +8,7 @@
 <div class="right-col-post">
 	<h2 class="header-regular">Latest Posts</h2>
 
-	<?php $catquery = new WP_Query( 'cat=1&posts_per_page=3' ); ?>
+	<?php $catquery = new WP_Query( 'cat=1&posts_per_page=4&offset=1' ); ?>
 	 
 	<?php while($catquery->have_posts()) : $catquery->the_post(); ?>
 

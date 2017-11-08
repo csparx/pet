@@ -30,6 +30,8 @@ Source Sans Pro
 .container{
 	display: flex;
 	padding: 0px 50px;
+    max-width: 1248px !important;
+    margin: 0px auto;
 }
 
 .wrap{
@@ -169,7 +171,7 @@ h1,h2,h3,h4{
 }
 
 .pet-logo img{
-	width: 400px;
+	/*width: 400px;*/
 }
 
 .subscribe{
@@ -193,9 +195,10 @@ h1,h2,h3,h4{
 }
 
 .nav-container{
-	width: 100%;
-	margin-top: 10px;
-	display: table;
+    max-width: 100%;
+    margin-top: 10px;
+    display: table;
+    margin: 0px auto;
 }
 
 .menu {
@@ -230,6 +233,10 @@ h1,h2,h3,h4{
     border-bottom-color: #fff;
     border-width: 6px;
     margin-left: -6px;
+}
+
+.sub-menu li {
+    width: 100%;
 }
 
 .menu li{
@@ -430,6 +437,15 @@ h1,h2,h3,h4{
     font-family: 'Ubuntu';
     font-weight: 700;
 }
+
+.right-col-post .latest-post:last-child .orange-line{
+    display:none!important;
+}
+
+.view-more-mobile{
+    display: none;
+}
+
 
 /*
 * Digimag Homepage

@@ -20,8 +20,8 @@ Template Post Type: page
 		<div class="page-content">
 			<div id="wufoo-r7p6p1">
 				Fill out my <a href="http://hattonbrown.wufoo.com/forms/r7p6p1">online form</a>.
-				</div>
-				<script type="text/javascript">var r7p6p1;(function(d, t) {
+			</div>
+			<script type="text/javascript">var r7p6p1;(function(d, t) {
 				var s = d.createElement(t), options = {
 				'userName':'hattonbrown', 
 				'formHash':'r7p6p1', 
@@ -44,8 +44,6 @@ Template Post Type: page
 
 
 	<?php endwhile; ?>
-
-	<?php get_sidebar();?>
 
 	<div style="clear:both;"></div>
 
